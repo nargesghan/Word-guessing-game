@@ -67,7 +67,7 @@ document
         }
       }else if(answer.toUpperCase()===isword){//correct answer
         for(j=lastBoxIndex;j>lastBoxIndex-5;j--){
-        boxes[j].style.backgroundColor='green';
+        boxes[j].style.backgroundColor='#a2c11c';
         document.querySelector('h1').classList.add('change-color');
         alert('correct word');
         word="";
@@ -77,11 +77,11 @@ document
       else{
         for(j=lastBoxIndex;j>lastBoxIndex-5;j--){
           if(isword.indexOf(boxes[j].innerText)!=-1){//if innertext of boxes[j] is in isword(obviously in uppercase)
-            boxes[j].style.backgroundColor='green';
+            boxes[j].style.backgroundColor='#a2c11c';
             word="";
             
           }if(isword.indexOf(boxes[j].innerText.toLowerCase())!=-1){
-            boxes[j].style.backgroundColor='#f96d00';
+            boxes[j].style.backgroundColor='#ff9c6d';
             word='';
             
           }
