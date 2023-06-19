@@ -7,7 +7,7 @@
     column-gap:5px;
 }
 .letter{
-     text-align: center;
+    text-align: center;
     padding: 10px 10px ;
     text-align: center;
     font-size: 50;
@@ -27,7 +27,8 @@ h1{
     border-bottom-color:#2c5d63 ;
     border-bottom-style: solid;
     padding-bottom: 20px;
-    width: 250px;
+    width: 500px;
+
 }
 .page{
     display: flex;
